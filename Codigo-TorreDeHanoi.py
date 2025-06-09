@@ -1,4 +1,3 @@
-
-
-l=["|___|" for i in range(2)]
+x = int(input())
+l=["|___|" for i in range(x)]
 print("".join(l))
