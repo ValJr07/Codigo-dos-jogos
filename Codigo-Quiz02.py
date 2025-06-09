@@ -43,12 +43,12 @@ while True:
         print(pergunta)
         Escolha = input("Qual voce acha que é (Se quiser parar digite 'Z'): ").upper()
         if Escolha == "A":
-            print("Acertou")
+            print("Acertou\n")
             acertos +=1
         elif Escolha == "Z":
             break
         else:
-            print("Errou!")
+            print("Errou!\n")
             erros +=1
 
     if x == 2:
@@ -56,12 +56,12 @@ while True:
         print(pergunta)
         Escolha = input("Qual voce acha que é  (Se quiser parar digite 'Z'):  ").upper()
         if Escolha == "B":
-            print("Acertou")
+            print("Acertou\n")
             acertos +=1
         elif Escolha == "Z":
             break
         else:
-            print("Errou!")
+            print("Errou!\n")
             erros +=1
 
     if x == 3:
@@ -69,12 +69,12 @@ while True:
         print(pergunta)
         Escolha = input("Qual voce acha que é  (Se quiser parar digite 'Z'): ").upper()
         if Escolha == "C":
-            print("Acertou")
+            print("Acertou\n")
             acertos+=1
         elif Escolha == "Z":
             break
         else:
-            print("Errou!")
+            print("Errou!\n")
             erros +=1
 
     if x == 4:
@@ -82,11 +82,11 @@ while True:
         print(pergunta)
         Escolha = input("Qual voce acha que é  (Se quiser parar digite 'Z'): ").upper()
         if Escolha == "D":
-            print("Acertou!")
+            print("Acertou!\n")
             acertos+=1
         elif Escolha == "Z":
             break
         else:
-            print("Errou!")
+            print("Errou!\n")
             erros +=1
 print(f"Acertos: {acertos}\nErros: {erros}\nPorcentagem de acerto: {(100*acertos)/(contador-1)}")

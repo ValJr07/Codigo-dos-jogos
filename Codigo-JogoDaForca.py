@@ -4,8 +4,6 @@ l = ["gumball", "jake", "mordecai", "rick", "clarencio",
 "finn", "rigby", "steven", "darwin", "morty"]
 
 pc = random.choice(l)
-print(pc)
-
 chance = 0
 
 palavra_certa = ["_" for _ in pc]
@@ -24,9 +22,9 @@ while chance < 5:
             achou = True
     
     if achou == True:
-        print("Existe essa letra na palavra")
+        print("Existe essa letra na palavra\n")
     else:
-        print("Não tem essa letra na palavra")
+        print("Não tem essa letra na palavra\n")
         chance+=1
 
 if "".join(palavra_certa) != pc:
